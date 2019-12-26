@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: sample
+  data:
+    rest:
+      base-path: /api
+  profiles:
+    active: development
+
+server.port: 8603
